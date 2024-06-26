@@ -1,0 +1,13 @@
+prefix=C:/Users/vinay/OneDrive/Desktop/GENAI/NVIDIANIM/NVIDIAENV/Library
+exec_prefix=C:/Users/vinay/OneDrive/Desktop/GENAI/NVIDIANIM/NVIDIAENV/Library
+libdir=C:/Users/vinay/OneDrive/Desktop/GENAI/NVIDIANIM/NVIDIAENV/Library/lib
+sharedlibdir=C:/Users/vinay/OneDrive/Desktop/GENAI/NVIDIANIM/NVIDIAENV/Library/lib
+includedir=C:/Users/vinay/OneDrive/Desktop/GENAI/NVIDIANIM/NVIDIAENV/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
